@@ -1,0 +1,26 @@
+{
+    "name": "cblink/laravel-seeder",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick",
+            "email": "me@xieying.vip"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Cblink\\Seeder\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+            ],
+            "providers": [
+                "Cblink\\Seeder\\ServiceProvider"
+            ]
+        }
+    }
+}
